@@ -1,6 +1,8 @@
 # ![xdso](packaging/xdso-logo.png)
 The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
 
+![Screenshot](<doc/Screenshot from 2026-09-20 04-55-20.png>)
+
 Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk the same protocol from what I was able to figure out)
 
 this is the same idea as `dso_fast.py` one folder up, just not a pile of scripts any more.

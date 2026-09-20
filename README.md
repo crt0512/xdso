@@ -7,7 +7,7 @@ Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk th
 
 ## why cant i just mirror the scopes screen?
 
-Well you can... but you probably dont want to because that gives you like 1fps because the Hantek DSO series use a 200Mhz CPU + alot of fragmenting over USB. So shipping a 800x480 16bpc 
+Well you can... but you probably dont want to because that gives you like 1fps because the Hantek DSO series use a 200Mhz CPU + alot of fragmenting over USB. So shipping a 800x480 16bpc screenshot over that is kinda just ass.
 
 xdso doesnt abuse the poor scopes CPU trying to ship raw pixels over usb (unless you want/need to). 
 Why ship pixels over a dial up pipe, ReadSampleData gives you the exact same waveform the scope is drawing in 3200 bytes a channel, ReadSettings gives you its entire front panel state in 208, just draw the damn thing yourself. sameish picture, 60x fewer bytes.

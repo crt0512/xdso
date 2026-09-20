@@ -85,7 +85,7 @@ theres a get and a put for files. get is a real protocol command so its quick, p
 
 ## saving things
 
-- `save png` grabs the window and drops it next to wherever you ran the binary. 
+- `save png` grabs the window and drops it next to wherever you ran the binary. (i forgot to implement file picker here, todo)
 - `save csv` puts up a file picker and writes the samples out as volts, one row per sample with a column per enabled channel.
 
 ## auto tuning

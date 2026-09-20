@@ -1,7 +1,7 @@
 # ![xdso](packaging/xdso-logo.png)
 The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
 
-![Screenshot](<doc/Screenshot from 2026-09-20 04-55-20.png>)
+![!\[Screenshot\](<doc/Screenshot from 2026-09-20 04-55-20.png>)](<doc/Screenshot from 2026-09-20 05-03-36.png>)
 
 Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk the same protocol from what I was able to figure out)
 
@@ -9,8 +9,13 @@ Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk th
 
 Well you can... but you probably dont want to because that gives you like 1fps because the Hantek DSO series use a 200Mhz CPU + alot of fragmenting over USB. So shipping a 800x480 16bpc screenshot over that is kinda just ass.
 
-xdso doesnt abuse the poor scopes CPU trying to ship raw pixels over usb (unless you want/need to). 
-Why ship pixels over a dial up pipe, ReadSampleData gives you the exact same waveform the scope is drawing in 3200 bytes a channel, ReadSettings gives you its entire front panel state in 208, just draw the damn thing yourself. sameish picture, 60x fewer bytes.
+xdso doesnt abuse the poor scopes CPU trying to ship raw pixels over usb (unless you want/need to for some menu elements).
+
+Example of how that would look :
+
+![Skibidi](<doc/Screenshot from 2026-09-20 05-05-01.png>)
+
+But why ship pixels over a dial up ah pipe, ReadSampleData gives you the exact same waveform the scope is drawing in 3200 bytes a channel, ReadSettings gives you its entire front panel state in 208, just draw the damn thing yourself. sameish picture, 60x fewer bytes.
 
 measured on my 5102P :
 

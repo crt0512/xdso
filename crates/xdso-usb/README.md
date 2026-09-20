@@ -8,7 +8,7 @@ pure rust usb via [nusb](https://docs.rs/nusb), not libusb. so theres nothing to
 
 ## the two important numbers
 
-**leave 20 ms between commands.** below about 15 ms the scope just doesnt answer, roughly half the time. thats measured, not folklore.
+**leave 20 ms between commands.** below about 15 ms the scope just doesnt answer, roughly half the time according to measurements, not just guesswork.
 
 **measure that gap from the end of the last reply, not from when you sent the last command.** i got this wrong first time round and it was horrible to track down. a settings read takes 5 ms so the gap was still satisfied either way and everything looked fine, but a waveform read takes 50 ms, which "uses up" the whole gap, so the very next command went out too early and the scope silently binned it. symptom : timeouts that only ever happen straight after a waveform read. the python got this right by accident because it slept unconditionally.
 

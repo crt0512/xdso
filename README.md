@@ -5,8 +5,6 @@ The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
 
 Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk the same protocol from what I was able to figure out)
 
-this is the same idea as `dso_fast.py` one folder up, just not a pile of scripts any more.
-
 ## why cant i just mirror the scopes screen?
 
 Well you can... but you probably dont want to because that gives you like 1fps because the Hantek DSO series use a 200Mhz CPU + alot of fragmenting over USB. So shipping a 800x480 16bpc 

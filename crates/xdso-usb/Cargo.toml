@@ -1,0 +1,15 @@
+[package]
+name = "xdso-usb"
+description = "usb transport for the DSO5000P, plus the background poller thread"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+xdso-proto.workspace = true
+nusb = "0.2"
+
+[dev-dependencies]
+# only the probe example wants this, the transport itself has no use for it
+xdso-dsp.workspace = true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=xdso
+GenericName=Oscilloscope
+Comment=Live view and remote control for the Hantek DSO5XXXP
+Exec=xdso
+Icon=xdso
+Terminal=false
+Categories=Development;Electronics;Engineering;
+Keywords=oscilloscope;hantek;dso;scope;waveform;
+StartupWMClass=xdso

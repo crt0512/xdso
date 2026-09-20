@@ -1,0 +1,23 @@
+[package]
+name = "xdso-gui"
+description = "the actual app. egui front end for the scope"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "xdso"
+path = "src/main.rs"
+
+[dependencies]
+xdso-proto.workspace = true
+xdso-dsp.workspace = true
+xdso-usb.workspace = true
+eframe = { version = "0.36", default-features = false, features = ["glow", "default_fonts", "x11", "wayland", "persistence"] }
+egui = "0.36"
+png = "0.18"
+# default features are the xdg portal plus a pure rust dbus client, so no gtk
+# and nothing to install at build time. it does want the desktop portal
+# running to actually show a dialog, see the note in csv.rs
+rfd = "0.17"

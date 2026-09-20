@@ -1,0 +1,18 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "I dont fucking know"
+
+[workspace.dependencies]
+xdso-proto = { path = "crates/xdso-proto" }
+xdso-dsp = { path = "crates/xdso-dsp" }
+xdso-usb = { path = "crates/xdso-usb" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"

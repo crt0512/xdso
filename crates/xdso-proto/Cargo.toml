@@ -1,0 +1,9 @@
+[package]
+name = "xdso-proto"
+description = "wire protocol and settings decode for the hantek DSO5000P. no i/o, no gui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]

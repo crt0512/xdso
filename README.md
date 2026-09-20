@@ -1,5 +1,5 @@
 # ![xdso](packaging/xdso-logo.png)
-The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
+The Unix App your Hantek DSO5XXXP Series Osciloscope deserves, made because I love my Hantek <3
 
 ![!\[Screenshot\](<doc/Screenshot from 2026-09-20 04-55-20.png>)](<doc/Screenshot from 2026-09-20 05-03-36.png>)
 

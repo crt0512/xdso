@@ -1,14 +1,7 @@
-<<<<<<< HEAD
+
 # <img src="packaging/xdso-logo.png" alt="xdso" height="38" align="absmiddle">
 
-
 The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
-=======
-# ![xdso](packaging/xdso-logo.png)
-The Unix App your Hantek DSO5XXXP Series Osciloscope deserves, made because I love my Hantek <3
->>>>>>> 769dbf1a6ebddf0f29b700fe8c946d848ac3f80b
-
-![!\[Screenshot\](<doc/Screenshot from 2026-09-20 04-55-20.png>)](<doc/Screenshot from 2026-09-20 05-03-36.png>)
 
 Only tested on hantek DSO5102P! (Should work on 5072P and 5202P too they talk the same protocol from what I was able to figure out)
 

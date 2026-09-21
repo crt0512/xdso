@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # <img src="packaging/xdso-logo.png" alt="xdso" height="38" align="absmiddle">
 
 
 The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
+=======
+# ![xdso](packaging/xdso-logo.png)
+The Unix App your Hantek DSO5XXXP Series Osciloscope deserves, made because I love my Hantek <3
+>>>>>>> 769dbf1a6ebddf0f29b700fe8c946d848ac3f80b
 
 ![!\[Screenshot\](<doc/Screenshot from 2026-09-20 04-55-20.png>)](<doc/Screenshot from 2026-09-20 05-03-36.png>)
 
@@ -87,7 +92,7 @@ theres a get and a put for files. get is a real protocol command so its quick, p
 
 ## saving things
 
-- `save png` grabs the window and drops it next to wherever you ran the binary. 
+- `save png` grabs the window and drops it next to wherever you ran the binary. (i forgot to implement file picker here, todo)
 - `save csv` puts up a file picker and writes the samples out as volts, one row per sample with a column per enabled channel.
 
 ## auto tuning

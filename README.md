@@ -1,5 +1,5 @@
 
-# <img src="packaging/xdso-logo.png" alt="xdso" height="38" align="absmiddle">
+# <img src="packaging/xdso.png" alt="xdso" height="30" align="absmiddle"> xdso
 
 The Unix App your Hantek DSO5XXXP Series Osciloscope deserves
 
